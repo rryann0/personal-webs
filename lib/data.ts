@@ -48,12 +48,12 @@ export const projects: Project[] = [
     category: "learning",
   },
   {
-    title: "Hack Club Website",
-    description: "Website for my school's Hack Club.",
-    fullDescription: "Built using a template, this website hosted on a custom domain acts as the go-to place for all things Hack Club.",
-    tags: ["HTML/CSS/JS"],
-    links: { live: "https://southhighhack.hackclub.com/", code: "https://github.com/rryann0/south-high-hack" },
-    category: "web",
+    title: "QSound",
+    description: "A website to generate your own quantum music.",
+    fullDescription: "Built primarily off Qiskit and MIDI packages, this Flask app alows you to customize and randomize your compositions.",
+    tags: ["HTML/CSS/JS", "Qiskit", "Flask"],
+    links: { live: "https://qsound.onrender.com/", code: "https://github.com/rryann0/qsound" },
+    category: "creative",
   },
 ];
 
