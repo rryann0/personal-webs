@@ -7,13 +7,6 @@ export type Project = {
   category: "web" | "creative" | "learning";
 };
 
-export type BlogPost = {
-  title: string;
-  date: string;
-  summary: string;
-  url: string;
-};
-
 export const projects: Project[] = [
   {
     title: "Hygieia",
@@ -54,27 +47,6 @@ export const projects: Project[] = [
     tags: ["HTML/CSS/JS", "Qiskit", "Flask"],
     links: { live: "https://qsound.onrender.com/", code: "https://github.com/rryann0/qsound" },
     category: "creative",
-  },
-];
-
-export const blogPosts: BlogPost[] = [
-  {
-    title: "Designing interactions that teach",
-    date: "Nov 2025",
-    summary: "Notes from building small tools that reward curiosity and make learning sticky.",
-    url: "#",
-  },
-  {
-    title: "What vinyl taught me about UX",
-    date: "Oct 2025",
-    summary: "Physical affordances, texture, and the joy of discovering hidden tracks in products.",
-    url: "#",
-  },
-  {
-    title: "Shipping fast as a student",
-    date: "Sep 2025",
-    summary: "Scoping, picking constraints, and keeping projects fun while deadlines loom.",
-    url: "#",
   },
 ];
 

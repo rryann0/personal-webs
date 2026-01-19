@@ -21,8 +21,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Ryan Lee | Portfolio & Blog",
-  description: "Student, engineer, lifelong learner - Portfolio and blog",
+  title: "Ryan Lee | Portfolio",
+  description: "Student, engineer, lifelong learner - Portfolio",
 };
 
 export default function RootLayout({

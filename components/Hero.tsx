@@ -13,7 +13,7 @@ export function Hero() {
   return (
     <section className="hero">
       <div className="hero__text">
-        <p className="eyebrow">Portfolio / Blogging</p>
+        <p className="eyebrow">Portfolio</p>
         <h1>
           Ryan Lee: student, engineer, lifelong musician
         </h1>
@@ -28,12 +28,6 @@ export function Hero() {
             className="primary-btn"
           >
             View projects
-          </button>
-          <button
-            onClick={() => scrollToSection("blog")}
-            className="secondary-btn"
-          >
-            Read blog
           </button>
         </div>
         <div className="meta">
